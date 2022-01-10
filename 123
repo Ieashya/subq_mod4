@@ -7,3 +7,4 @@ yarn codegen
 yarn build
 docker-compose pull
 docker-compose up -d
+echo "http://"$(curl -s ifconfig.me)":3000"
