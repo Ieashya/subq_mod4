@@ -1,1 +1,3 @@
 wget -q -O subquery.sh https://api.nodes.guru/subquery.sh && chmod +x subquery.sh && sudo /bin/bash subquery.sh
+cd $HOME
+subql init --starter hello-world
